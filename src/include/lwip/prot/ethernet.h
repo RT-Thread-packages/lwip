@@ -124,6 +124,8 @@ enum eth_type {
   ETHTYPE_PPPOE     = 0x8864U,
   /** Jumbo Frames */
   ETHTYPE_JUMBO     = 0x8870U,
+  /** EAPOL, EAP over LAN */
+  ETHTYPE_EAPOL     = 0x888EU,
   /** Process field network */
   ETHTYPE_PROFINET  = 0x8892U,
   /** Ethernet for control automation technology */
@@ -137,7 +139,7 @@ enum eth_type {
   /** Precision time protocol */
   ETHTYPE_PTP       = 0x88F7U,
   /** Q-in-Q, 802.1ad */
-  ETHTYPE_QINQ      = 0x9100U
+  ETHTYPE_QINQ      = 0x9100U,
 };
 
 /** The 24-bit IANA IPv4-multicast OUI is 01-00-5e: */
